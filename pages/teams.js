@@ -6,7 +6,7 @@ import { useAuth } from '../utils/context/authContext';
 import { getTeam } from '../api/teamData';
 import MemberCard from '../components/MemberCard';
 
-function Home() {
+function Teams() {
   const [members, setMembers] = useState([]);
   const { user } = useAuth();
 
@@ -37,4 +37,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Teams;
