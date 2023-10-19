@@ -3,38 +3,37 @@ import { Button } from 'react-bootstrap';
 import Link from 'next/link';
 import { signOut } from '../utils/auth';
 import { useAuth } from '../utils/context/authContext';
-import { getTeam } from '../api/teamData';
-import MemberCard from '../components/MemberCard';
+import { getTeams } from '../api/teamData';
+import TeamCard from '../components/TeamCard';
 
 function Teams() {
-  const [members, setMembers] = useState([]);
+  const [teams, setTeams] = useState([]);
   const { user } = useAuth();
 
-  const getAllTheMembers = () => {
-    getTeam(user.uid).then(setMembers);
+  const getAllTheTeams = () => {
+    getTeams(user.uid).then(setTeams);
   };
 
   useEffect(() => {
-    getAllTheMembers();
+    getAllTheTeams();
   }, []);
 
   return (
     <div className="text-center my-4">
-      <h1>TEAM</h1>
-      <Link href="/member/new" passHref>
-        <Button>Add A Member</Button>
+      <h1>TEAMS</h1>
+      <Link href="/team/new" passHref>
+        <Button className="createBtn">Add A Team</Button>
       </Link>
       <div className="d-flex flex-wrap">
-        {members.map((member) => (
-          <MemberCard key={member.firebaseKey} memberObj={member} onUpdate={getAllTheMembers} />
+        {teams.map((team) => (
+          <TeamCard key={team.firebaseKey} teamObj={team} onUpdate={getAllTheTeams} />
         ))}
 
       </div>
-      <Button variant="danger" type="button" size="lg" className="copy-btn" onClick={signOut}>
+      <Button variant="outline-secondary" type="button" size="sm" className="copy-btn" onClick={signOut}>
         Sign Out
       </Button>
     </div>
   );
 }
-
 export default Teams;

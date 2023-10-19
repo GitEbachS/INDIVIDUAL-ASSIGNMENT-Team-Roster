@@ -3,7 +3,8 @@ import PropTypes from 'prop-types';
 import { Button, Form } from 'react-bootstrap';
 import { useRouter } from 'next/router';
 import { useAuth } from '../../utils/context/authContext';
-import { createMember, updateMember } from '../../api/teamData';
+import { createMember, updateMember } from '../../api/memberData';
+import { getTeams } from '../../api/teamData';
 
 const intialState = {
   image: '',
@@ -14,9 +15,11 @@ const intialState = {
 export default function MemberForm({ memberObj }) {
   const { user } = useAuth();
   const [formInput, setFormInput] = useState({ ...intialState, uid: user.uid });
+  const [teams, setTeams] = useState([]);
   const router = useRouter();
 
   useEffect(() => {
+    getTeams(user.uid).then(setTeams);
     if (memberObj.firebaseKey) setFormInput(memberObj);
   }, [memberObj, user]);
   console.warn(memberObj.firebaseKey);
@@ -69,15 +72,46 @@ export default function MemberForm({ memberObj }) {
         </Form.Group>
         <Form.Group className="mb-3">
           <Form.Label>Role</Form.Label>
-          <Form.Control
-            type="text"
-            placeholder="Enter Role"
+          <Form.Select
+            aria-label="Role"
             name="role"
-            value={formInput.role}
             onChange={handleChange}
-          />
+            className="mb-3"
+            value={formInput.role}
+            required
+          >
+            <option value="">Select a Role</option>
+            <option>
+              attack
+            </option>
+            <option>defense</option>
+            <option>midfield</option>
+            <option>goalkeeper</option>
+          </Form.Select>
         </Form.Group>
-        <Button variant="primary" type="submit">
+        <Form.Group className="mb-3">
+          <Form.Select
+            aria-label="Team"
+            name="teamId"
+            onChange={handleChange}
+            className="mb-3"
+            value={formInput.teamId}
+            required
+          >
+            <option value="">Select a Team</option>
+            {
+            teams.map((team) => (
+              <option
+                key={team.firebaseKey}
+                value={team.firebaseKey}
+              >
+                {team.name}
+              </option>
+            ))
+          }
+          </Form.Select>
+        </Form.Group>
+        <Button variant="outline-secondary" type="submit">
           Submit
         </Button>
       </Form>

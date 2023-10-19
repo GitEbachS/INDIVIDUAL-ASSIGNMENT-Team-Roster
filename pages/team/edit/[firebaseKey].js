@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
-import { getSingleMember } from '../../../api/memberData';
-import MemberForm from '../../../components/forms/MemberForm';
+import { getSingleTeam } from '../../../api/teamData';
+import TeamForm from '../../../components/forms/TeamForm';
 
 export default function EditMember() {
   const [editItem, setEditItem] = useState({});
@@ -11,9 +11,9 @@ export default function EditMember() {
 
   // make a call to the API to get the member data
   useEffect(() => {
-    getSingleMember(firebaseKey).then(setEditItem);
+    getSingleTeam(firebaseKey).then(setEditItem);
   }, [firebaseKey]);
   console.warn(editItem);
   // pass object to form
-  return (<MemberForm memberObj={editItem} />);
+  return (<TeamForm teamObj={editItem} />);
 }

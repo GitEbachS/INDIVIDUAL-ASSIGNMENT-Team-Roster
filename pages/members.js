@@ -3,30 +3,30 @@ import { Button } from 'react-bootstrap';
 import Link from 'next/link';
 import { signOut } from '../utils/auth';
 import { useAuth } from '../utils/context/authContext';
-import { getTeams } from '../api/teamData';
-import TeamCard from '../components/TeamCard';
+import MemberCard from '../components/MemberCard';
+import { getMembers } from '../api/memberData';
 
-function Home() {
-  const [teams, setTeams] = useState([]);
+function Members() {
+  const [members, setMembers] = useState([]);
   const { user } = useAuth();
 
-  const getAllTheTeams = () => {
-    getTeams(user.uid).then(setTeams);
+  const getAllTheMembers = () => {
+    getMembers(user.uid).then(setMembers);
   };
 
   useEffect(() => {
-    getAllTheTeams();
+    getAllTheMembers();
   }, []);
 
   return (
     <div className="text-center my-4">
-      <h1>TEAMS</h1>
-      <Link href="/team/new" passHref>
-        <Button>Add A Team</Button>
+      <h1>Members</h1>
+      <Link href="/member/new" passHref>
+        <Button className="createBtn">Add A Member</Button>
       </Link>
       <div className="d-flex flex-wrap">
-        {teams.map((team) => (
-          <TeamCard key={team.firebaseKey} teamObj={team} onUpdate={getAllTheTeams} />
+        {members.map((member) => (
+          <MemberCard key={member.firebaseKey} memberObj={member} onUpdate={getAllTheMembers} />
         ))}
 
       </div>
@@ -37,4 +37,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Members;
