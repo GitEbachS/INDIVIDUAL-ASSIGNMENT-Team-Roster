@@ -1,86 +1,38 @@
 {
-  "-NgvbYUIk-gEPI49n60y": {
-    "firebaseKey": "-NgvbYUIk-gEPI49n60y",
-    "image": "http://dummyimage.com/145x100.png/dddddd/000000",
-    "name": "Meagan Shaudfurth",
-    "role": "defense",
+  "-Nh2S9kLYul_TRtv91lD": {
+    "firebaseKey": "-Nh2S9kLYul_TRtv91lD",
+    "image": "https://i.pinimg.com/736x/17/a5/9b/17a59b3aad3079203564456c7762808c.jpg",
+    "name": "Lions",
     "uid": "7VTpNEvBCJc4rCo8lWihLbaYMEb2"
   },
-  "-NgvbYUKwqi-4mnjA49x": {
-    "firebaseKey": "-NgvbYUKwqi-4mnjA49x",
-    "image": "http://dummyimage.com/141x100.png/ff4444/ffffff",
-    "name": "Hadleigh Barta",
-    "role": "attack",
+  "-Nh2S9kMiluTV3t63NIB": {
+    "firebaseKey": "-Nh2S9kMiluTV3t63NIB",
+    "image": "https://cdn1.vectorstock.com/i/1000x1000/88/60/tiger-team-abstract-sign-emblem-or-logo-vector-25328860.jpg",
+    "name": "Tigers",
     "uid": "7VTpNEvBCJc4rCo8lWihLbaYMEb2"
   },
-  "-NgvbYUL4WtlqJtprDMU": {
-    "firebaseKey": "-NgvbYUL4WtlqJtprDMU",
-    "image": "http://dummyimage.com/153x100.png/dddddd/000000",
-    "name": "Maria Gwilliam",
-    "role": "defense",
+  "-Nh2S9kNEbM8eu9GCpXY": {
+    "firebaseKey": "-Nh2S9kNEbM8eu9GCpXY",
+    "image": "https://i.pinimg.com/originals/02/c8/cd/02c8cd49f3c98a5bca212620886b53ec.jpg",
+    "name": "Eagles",
     "uid": "7VTpNEvBCJc4rCo8lWihLbaYMEb2"
   },
-  "-NgvbYUM5GvNzE6lVL16": {
-    "firebaseKey": "-NgvbYUM5GvNzE6lVL16",
-    "image": "http://dummyimage.com/108x100.png/dddddd/000000",
-    "name": "Quincy Tuftin",
-    "role": "attack",
+  "-Nh2S9kO5Wy0fC1D_epy": {
+    "firebaseKey": "-Nh2S9kO5Wy0fC1D_epy",
+    "image": "https://t3.ftcdn.net/jpg/02/10/96/00/360_F_210960015_iV3PqOd8XhlFKbZRO98rKFyXDvHE9b7h.jpg",
+    "name": "Sharks",
     "uid": "7VTpNEvBCJc4rCo8lWihLbaYMEb2"
   },
-  "-NgvbYUNJvOEarfpZ93M": {
-    "firebaseKey": "-NgvbYUNJvOEarfpZ93M",
-    "image": "http://dummyimage.com/241x100.png/5fa2dd/ffffff",
-    "name": "Ki Tasseler",
-    "role": "goalkeeper",
+  "-Nh2S9kO5Wy0fC1D_epz": {
+    "firebaseKey": "-Nh2S9kO5Wy0fC1D_epz",
+    "image": "https://static.vecteezy.com/system/resources/thumbnails/017/503/808/small/wild-wolf-e-sport-mascot-logo-design-illustration-vector.jpg",
+    "name": "Wolves",
     "uid": "7VTpNEvBCJc4rCo8lWihLbaYMEb2"
   },
-  "-NgvbYUOyJ16E2eleWdv": {
-    "firebaseKey": "-NgvbYUOyJ16E2eleWdv",
-    "image": "http://dummyimage.com/245x100.png/cc0000/ffffff",
-    "name": "Rodolphe Slym",
-    "role": "defense",
-    "uid": "7VTpNEvBCJc4rCo8lWihLbaYMEb2"
-  },
-  "-NgvbYUQjeX8cS_y8yt1": {
-    "firebaseKey": "-NgvbYUQjeX8cS_y8yt1",
-    "image": "http://dummyimage.com/199x100.png/dddddd/000000",
-    "name": "Chrysa Phelps",
-    "role": "midfield",
-    "uid": "7VTpNEvBCJc4rCo8lWihLbaYMEb2"
-  },
-  "-NgvbYUR3ENxhL234bzI": {
-    "firebaseKey": "-NgvbYUR3ENxhL234bzI",
-    "image": "http://dummyimage.com/240x100.png/cc0000/ffffff",
-    "name": "Sasha Freebury",
-    "role": "goalkeeper",
-    "uid": "7VTpNEvBCJc4rCo8lWihLbaYMEb2"
-  },
-  "-NgvbYUSqtiNkY9WCKWb": {
-    "firebaseKey": "-NgvbYUSqtiNkY9WCKWb",
-    "image": "http://dummyimage.com/211x100.png/ff4444/ffffff",
-    "name": "Giraud Bengall",
-    "role": "midfield",
-    "uid": "7VTpNEvBCJc4rCo8lWihLbaYMEb2"
-  },
-  "-NgvbYUTmm7gLHPLkx6z": {
-    "firebaseKey": "-NgvbYUTmm7gLHPLkx6z",
-    "image": "http://dummyimage.com/175x100.png/dddddd/000000",
-    "name": "Benji McGeachey",
-    "role": "attack",
-    "uid": "7VTpNEvBCJc4rCo8lWihLbaYMEb2"
-  },
-  "-NgvbYUU1lUaCcV9qFOT": {
-    "firebaseKey": "-NgvbYUU1lUaCcV9qFOT",
-    "image": "http://dummyimage.com/214x100.png/ff4444/ffffff",
-    "name": "Gerri Reach",
-    "role": "defense",
-    "uid": "7VTpNEvBCJc4rCo8lWihLbaYMEb2"
-  },
-  "-NgvbYUVidJnMm4hnHIr": {
-    "firebaseKey": "-NgvbYUVidJnMm4hnHIr",
-    "image": "http://dummyimage.com/105x100.png/5fa2dd/ffffff",
-    "name": "Teresita Gruby",
-    "role": "midfield",
+  "-Nh2S9kO5Wy0fC1D_eq-": {
+    "firebaseKey": "-Nh2S9kO5Wy0fC1D_eq-",
+    "image": "https://images.squarespace-cdn.com/content/v1/606cb94f25e5214065456fa2/bd1f4193-ed18-4534-88ea-45abbd15671d/Panther+Logo+main.jpg",
+    "name": "Panthers",
     "uid": "7VTpNEvBCJc4rCo8lWihLbaYMEb2"
   }
 }
