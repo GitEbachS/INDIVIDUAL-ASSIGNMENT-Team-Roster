@@ -22,7 +22,7 @@ function Home() {
     <div className="text-center my-4">
       <h1>TEAMS</h1>
       <Link href="/team/new" passHref>
-        <Button>Add A Team</Button>
+        <Button className="createBtn">Add A Team</Button>
       </Link>
       <div className="d-flex flex-wrap">
         {teams.map((team) => (
@@ -30,11 +30,10 @@ function Home() {
         ))}
 
       </div>
-      <Button variant="danger" type="button" size="lg" className="copy-btn" onClick={signOut}>
+      <Button variant="outline-secondary" type="button" size="sm" className="copy-btn" onClick={signOut}>
         Sign Out
       </Button>
     </div>
   );
 }
-
 export default Home;

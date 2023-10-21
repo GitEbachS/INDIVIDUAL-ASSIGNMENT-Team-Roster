@@ -20,7 +20,7 @@ export default function ViewMember() {
       <div className="d-flex flex-column">
         <img src={memberDetails.image} alt={memberDetails.name} style={{ height: '300px' }} />
       </div>
-      <div className=" memberBody text-white ms-5 details">
+      <div className=" memberBody ms-5 details">
         <h5>
           {memberDetails.name}
         </h5>

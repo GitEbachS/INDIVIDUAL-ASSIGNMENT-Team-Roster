@@ -69,3 +69,19 @@ color:rgb(50, 59, 59);
   position: absolute;
   right: 1px;
 }
+.teamView {
+  display: flex;
+  justify-content: center;
+}
+.titleBack {
+ background-color: rgb(196, 196, 35);
+ font-size: 60px;
+ line-height: 1.5;
+ text-align: center;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.viewMembers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
