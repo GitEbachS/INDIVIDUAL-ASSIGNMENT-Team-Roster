@@ -3,14 +3,14 @@ import PropTypes from 'prop-types';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Link from 'next/link';
-import { deleteSingleTeam } from '../api/teamData';
+import { deleteTeamMembers } from '../api/mergedData';
 
 function TeamCard({ teamObj, onUpdate }) {
   // FOR DELETE, WE NEED TO REMOVE THE MEMBER AND HAVE THE VIEW RERENDER,
   // SO WE PASS THE FUNCTION FROM THE PARENT THAT GETS THE MEMBERS
   const deleteThisTeam = () => {
     if (window.confirm(`Delete ${teamObj.name}?`)) {
-      deleteSingleTeam(teamObj.firebaseKey).then(() => onUpdate());
+      deleteTeamMembers(teamObj.firebaseKey).then(() => onUpdate());
     }
   };
 

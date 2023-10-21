@@ -22,7 +22,6 @@ export default function MemberForm({ memberObj }) {
     getTeams(user.uid).then(setTeams);
     if (memberObj.firebaseKey) setFormInput(memberObj);
   }, [memberObj, user]);
-  console.warn(memberObj.firebaseKey);
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormInput((prevState) => ({
@@ -36,7 +35,6 @@ export default function MemberForm({ memberObj }) {
 
     if (memberObj.firebaseKey) {
       updateMember(formInput).then(() => router.push(`/member/${memberObj.firebaseKey}`));
-      // console.warn('Hi');
     } else {
       const payload = { ...formInput, uid: user.uid };
       createMember(payload).then(({ name }) => {
@@ -44,7 +42,6 @@ export default function MemberForm({ memberObj }) {
         updateMember(patchPayload).then(() => router.push('/'));
       });
     }
-    // console.warn(memberObj);
   };
 
   return (
