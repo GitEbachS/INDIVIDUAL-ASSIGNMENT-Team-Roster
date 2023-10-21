@@ -27,7 +27,7 @@ This will stand the live server. Authenticate with your email - then you will be
 -  Authenticated users can UPDATE the members and teams information. The members can be switched to another team.
 
 ## LOOMS OF GLADIATOR WOMEN'S SOCCER LEAGUE<!-- A loom link is sufficient -->
-
+https://www.loom.com/share/a0562bc52fb24684a3e61c35704de755?sid=0b4dd7a3-f6d6-476c-aef2-b195f808034a
 
 ## Relevant Links <!-- Link to all the things that are required outside of the ones that have their own section -->
 - [Check out the deployed site] https://gladiators-women-soccer.netlify.app/
