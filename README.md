@@ -38,11 +38,18 @@ https://www.loom.com/share/a0562bc52fb24684a3e61c35704de755?sid=0b4dd7a3-f6d6-47
 ![image](https://github.com/GitEbachS/INDIVIDUAL-ASSIGNMENT-Team-Roster/assets/119310701/3c0415d6-9a8c-47f5-a10f-3ab51bdb17b3)
 
 
-
-## Project Screenshots <!-- These can be inside of your project. Look at the repos from class and see how the images are included in the readme -->
 ![image](https://github.com/GitEbachS/INDIVIDUAL-ASSIGNMENT-Team-Roster/assets/119310701/dc094389-de63-4523-9b57-35cb75198f99)
 
 ![image](https://github.com/GitEbachS/INDIVIDUAL-ASSIGNMENT-Team-Roster/assets/119310701/a5c34f49-0a91-492d-88fe-697f210fe8aa)
+
+## Project Screenshots <!-- These can be inside of your project. Look at the repos from class and see how the images are included in the readme -->
+![image](https://github.com/GitEbachS/INDIVIDUAL-ASSIGNMENT-Team-Roster/assets/119310701/56df9e96-97db-4632-a593-8ebf7e1c7f13)
+
+![image](https://github.com/GitEbachS/INDIVIDUAL-ASSIGNMENT-Team-Roster/assets/119310701/13aa3af0-b377-44da-9a95-84182a024485)
+
+![image](https://github.com/GitEbachS/INDIVIDUAL-ASSIGNMENT-Team-Roster/assets/119310701/65459a40-84cc-4716-8517-9373423c9074)
+
+
 
 
 ## Contributors
